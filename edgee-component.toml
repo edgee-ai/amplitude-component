@@ -6,10 +6,45 @@ version = "1.2.0"
 category = "data-collection"
 subcategory = "analytics"
 description = """
-Get fast answers to any growth question without coding. Amplitude unites all your data with behavioral analytics and AI automation—for an easier way to build your best product.
-#### Clear insights you can't miss
-Access reliable product insights in seconds with automated reports. Understand your user journey at a glance with instant visualizations. Amplitude gives all teams access to accurate, real-time insights while highlighting what’s actionable, so you can make smart decisions with confidence.
-![Amplitude](https://embed-ssl.wistia.com/deliveries/a7e6bc40ba09a2cc5e86dc0148c12b74.jpg)"""
+# Amplitude Component
+
+[https://www.edgee.cloud/edgee/amplitude](https://www.edgee.cloud/edgee/amplitude)
+
+## Overview
+
+The **Amplitude** component by Edgee enables seamless, privacy-aware integration of Amplitude’s product analytics platform directly at the edge.
+Your site no longer requires Amplitude's client-side SDK—Edgee handles data collection server-side via WebAssembly, enhancing both performance and data fidelity.
+
+---
+
+## Key Features & Benefits
+
+### Features
+
+- **JSON Event Transmission**: Transmits complete JSON events from Edgee to Amplitude.
+- **Multi-Event Support**: Supports `page`, `track`, and `user` event types.
+- **Cookie Configuration**: Allows configuration of Amplitude native cookies handling.
+- **Native Integration**: Integrates with Amplitude's behavioral analytics and AI automation features.
+
+### Benefits
+
+- **Enhanced Privacy**: By processing events at the edge, sensitive user data is handled closer to the source, reducing exposure.
+- **Improved Performance**: Eliminates the need for client-side SDKs, leading to faster page loads and reduced JavaScript execution.
+- **Real-Time Insights**: Enables immediate forwarding of user interactions to Amplitude for timely analytics.
+
+---
+
+## Use Cases
+
+- **Real-time product analytics**: Capture accurate behavioral data without compromising performance.
+- **Improved marketing attribution**: Mitigate data loss from ad blockers.
+- **Performance-first websites**: Maintain optimal Core Web Vitals by offloading analytics to the edge.
+- **Consolidated analytics workflows**: Works seamlessly with Amplitude without SDK complexity.
+
+---
+
+Additional resources: [Amplitude Documentation](https://www.amplitude.com/)
+"""
 documentation = "https://www.edgee.cloud/docs/components/data-collection/amplitude"
 repository = "https://github.com/edgee-cloud/amplitude-component"
 wit-version = "1.0.0"
