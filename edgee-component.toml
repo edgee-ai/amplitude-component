@@ -39,7 +39,7 @@ Your site no longer requires Amplitude's client-side SDK—Edgee handles data co
 
 ---
 
-Additional resources: [Amplitude Documentation](https://www.amplitude.com/)
+Additional resources: [Amplitude Documentation](https://amplitude.com/docs)
 """
 documentation = "https://www.edgee.cloud/docs/components/data-collection/amplitude"
 repository = "https://github.com/edgee-cloud/amplitude-component"
