@@ -77,10 +77,9 @@ impl Guest for AmplitudeComponent {
             let mut event_props = serde_json::Map::new();
 
             // set page properties
-            let page_location = format!("{}{}", data.url.clone(), data.search.clone());
             event_props.insert(
                 "[Amplitude] Page Location".to_string(),
-                v::String(page_location.clone()),
+                v::String(data.url.clone()),
             );
             event_props.insert(
                 "[Amplitude] Page Path".to_string(),
@@ -90,9 +89,18 @@ impl Guest for AmplitudeComponent {
                 "[Amplitude] Page Title".to_string(),
                 v::String(data.title.clone()),
             );
+
+            let url_without_qs = edgee_event
+                .context
+                .page
+                .url
+                .split('?')
+                .next()
+                .unwrap_or(&data.url)
+                .to_string();
             event_props.insert(
                 "[Amplitude] Page URL".to_string(),
-                v::String(data.url.clone()),
+                v::String(url_without_qs),
             );
 
             let parsed_url = url::Url::parse(data.url.clone().as_str()).unwrap();
