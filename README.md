@@ -1,9 +1,9 @@
 <div align="center">
 <p align="center">
-  <a href="https://www.edgee.cloud">
+  <a href="https://www.edgee.ai">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.edgee.cloud/img/component-dark.svg">
-      <img src="https://cdn.edgee.cloud/img/component.svg" height="100" alt="Edgee">
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.edgee.ai/img/component-dark.svg">
+      <img src="https://cdn.edgee.ai/img/component.svg" height="100" alt="Edgee">
     </picture>
   </a>
 </p>
@@ -12,11 +12,11 @@
 
 <h1 align="center">Amplitude Component for Edgee</h1>
 
-[![Coverage Status](https://coveralls.io/repos/github/edgee-cloud/amplitude-component/badge.svg)](https://coveralls.io/github/edgee-cloud/amplitude-component)
-[![GitHub issues](https://img.shields.io/github/issues/edgee-cloud/amplitude-component.svg)](https://github.com/edgee-cloud/amplitude-component/issues)
-[![Edgee Component Registry](https://img.shields.io/badge/Edgee_Component_Registry-Public-green.svg)](https://www.edgee.cloud/edgee/amplitude)
+[![Coverage Status](https://coveralls.io/repos/github/edgee-ai/amplitude-component/badge.svg)](https://coveralls.io/github/edgee-ai/amplitude-component)
+[![GitHub issues](https://img.shields.io/github/issues/edgee-ai/amplitude-component.svg)](https://github.com/edgee-ai/amplitude-component/issues)
+[![Edgee Component Registry](https://img.shields.io/badge/Edgee_Component_Registry-Public-green.svg)](https://www.edgee.ai/edgee/amplitude)
 
-This component enables seamless integration between [Edgee](https://www.edgee.cloud) and [Amplitude](https://amplitude.com), allowing you to collect and forward analytics data while respecting user privacy settings.
+This component enables seamless integration between [Edgee](https://www.edgee.ai) and [Amplitude](https://amplitude.com), allowing you to collect and forward analytics data while respecting user privacy settings.
 
 ## Quick Start
 
@@ -114,4 +114,4 @@ make build
 Interested in contributing? Read our [contribution guidelines](./CONTRIBUTING.md)
 
 ### Security
-Report security vulnerabilities to [security@edgee.cloud](mailto:security@edgee.cloud)
+Report security vulnerabilities to [security@edgee.ai](mailto:security@edgee.ai)
